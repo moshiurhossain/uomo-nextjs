@@ -1,8 +1,15 @@
 import React from 'react'
+import Topheader from './Topheader'
+
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <header className=''>
+      
+        <Topheader/>
+
+      
+    </header>
   )
 }
 
