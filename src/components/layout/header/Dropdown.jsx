@@ -4,7 +4,7 @@ import {
   NativeSelectOptGroup,
   NativeSelectOption,
 } from "@/components/ui/native-select"
-
+// dummy data
 const items =[
     {label:'computer',value:'computer'},
     {label:'laptop',value:'laptop'},
@@ -15,7 +15,7 @@ const items =[
 const Dropdown = () => {
   return (
 <div className='text-primary-black'>
-<NativeSelect>
+<NativeSelect >
   {/* <NativeSelectOption value="">All Category</NativeSelectOption>
   <NativeSelectOption value="apple">Apple</NativeSelectOption>
   <NativeSelectOption value="banana">Banana</NativeSelectOption>
