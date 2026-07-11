@@ -1,5 +1,6 @@
 import React from 'react'
 import Topheader from './Topheader'
+import Navbar from './Navbar'
 
 
 const Header = () => {
@@ -7,6 +8,7 @@ const Header = () => {
     <header className=''>
       
         <Topheader/>
+        <Navbar/>
 
       
     </header>

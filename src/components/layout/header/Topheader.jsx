@@ -6,7 +6,7 @@ import HeaderIcons from './HeaderIcons'
 
 const Topheader = () => {
   return (
-    <div className='bg-primary '>
+    <div className='bg-primary py-4'>
     <Container className={`flex justify-between items-center`}>
       {/* left side */}
         <div className=' text-white flex items-center gap-8.25 '>
