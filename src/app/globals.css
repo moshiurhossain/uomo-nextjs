@@ -135,3 +135,21 @@
     @apply font-sans;
   }
 }
+
+@layer components {
+  .listitem {
+    @apply relative text-sm font-medium leading-6
+      after:content-['']
+      after:absolute
+      after:left-1/2
+      after:-translate-x-1/2
+      after:bottom-0
+      after:w-0
+      after:h-0.5
+      after:bg-white
+      after:transition-all
+      after:duration-300
+      after:ease-in-out
+      hover:after:w-full;
+  }
+}

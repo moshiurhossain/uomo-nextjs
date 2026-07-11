@@ -14,13 +14,13 @@ const menuItems = [
 const Navbar = () => {
   
   return (
-    <div className='bg-secondary'>
+    <div className='bg-secondary py-6'>
         <Container>
          <div>
-             <ul className='flex text-white gap-11 text-sm font-medium'>
+             <ul className='flex text-white gap-11  '>
             {menuItems.map((item)=>(
                
-                <li key={item.id}>
+                <li key={item.id} className='listitem'>
                     <Link href={`/${item.label.toLocaleLowerCase()}`}>{item.label}</Link>
                 </li>
             
